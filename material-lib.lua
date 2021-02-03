@@ -1,5 +1,5 @@
 -- coolest lib
--- my custom settings for these
+-- my custom theme(s)
 
 local Player = game:GetService("Players").LocalPlayer
 local Mouse = Player:GetMouse()
@@ -12,7 +12,7 @@ local CoreGuiService = game:GetService("CoreGui")
 local ContentService = game:GetService("ContentProvider")
 
 local Themes = {
-Blueface = {
+	Blue = {
 		MainFrame = Color3.fromRGB(255,255,255),
 		Minimise = Color3.fromRGB(250, 182, 92),
 		MinimiseAccent = Color3.fromRGB(147,59,0),
