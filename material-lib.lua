@@ -742,7 +742,7 @@ function Material.Load(Config)
 	local Title = Config.Title or "MaterialLua"
 	local SizeX = Config.SizeX or 300
 	local SizeY = Config.SizeY or 500
-	local Theme = Config.Theme or "Light"
+	local Theme = Config.Theme or "Blue"
 	local Overrides = Config.ColorOverrides or {}
 	local Open = true
 
